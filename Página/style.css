@@ -1,0 +1,68 @@
+body { 
+	font-family: 'Titillium Web', sans-serif;
+}
+
+h1 { font-size: 66px; font-weight: 600; line-height: 80px; }
+
+
+.navbar
+{
+	background-color: #F7F4F3;
+	box-shadow: 0 1px 0px 0 rgba(0, 0, 0, 0.1);
+	min-height: 80px;
+}
+
+.nav-link {
+	color: #1a1a1a;
+}
+
+.nav-link:hover {
+	color: #1a1a1a;
+}
+
+.navbar-toggler {
+	font-size: 40px;
+
+}
+
+.navbar-toggler: focus { outline: : none;¨}
+
+/* #fondo { 
+	background-image: url('images/Fondo.jpg');
+	background-size: cover;
+	padding-top: 90px;
+	min-height: 300px;
+	width: 800px;
+	color: #ffffff;
+}*/
+
+.content-center {
+	max-width: 800px;
+	margin: 0 auto 60px auto;
+	text-align: center;
+}
+
+form{
+	width:500px;
+	padding:50px;
+	border-radius:10px;
+	margin:auto;
+	margin-top: 10px;
+	background-color:#ccc;
+}
+
+form input[type="text"]{
+	width:400px;
+	padding:3px 10px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;
+	margin:5px 0;
+	display:inline-block;
+}
+
+form label{
+	width:200px;
+	font-weight:bold;
+	display:inline-block;
+}
